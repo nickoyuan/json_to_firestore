@@ -4,7 +4,7 @@ var serviceAccount = require("./service_key.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "YOUR_PROJECT_LINK"
+  databaseURL: "https://flutterconnect-82965.firebaseio.com"
 });
 
 const firestore = admin.firestore();
