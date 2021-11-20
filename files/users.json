@@ -1,0 +1,12 @@
+[
+  {
+    "itemID": "6a6e702a",
+    "firstName": "Sangai",
+    "lastName" : "Momos",
+    "DislikedBy": 1,
+    "LikedBy": 10,
+    "Likes": ["personA", "1"],
+    "itemCategory": "momos_nv",
+    "itemType": "nv"
+  }
+]
