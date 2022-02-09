@@ -1,6 +1,8 @@
 # json_to_firestore
 json to firestore
 
+#How to start
+`run node uploader_dev.js or uploader_prod.js'
 
 # Links to upload
 https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57
