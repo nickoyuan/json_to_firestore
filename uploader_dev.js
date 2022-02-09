@@ -1,7 +1,17 @@
 var admin = require("firebase-admin");
-admin.initializeApp();
+
+var serviceAccount = require("./service_key.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
 
 const firestore = admin.firestore();
+firestore.settings({
+  host: "localhost:8080",
+  ssl: false
+})
+
 const path = require("path");
 const fs = require("fs");
 const directoryPath = path.join(__dirname, "files");
