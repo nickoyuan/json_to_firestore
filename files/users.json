@@ -7,7 +7,9 @@
     "LikedBy": 10,
     "Likes": ["personA", "1"],
     "itemCategory": "momos_nv",
-    "itemType": "0431293123"
+    "itemType": "0431293123",
+    "imageUrl": ["assets/images/dummy_users/bunny1.jpeg"],
+    "quotes": {"0": "i like sunshine", "1": "i like beaches", "2": "how is the weather?"}
   },
   {
     "itemID": "Hf2aDaUnwLQGNkbqHkgw",
@@ -17,6 +19,20 @@
     "LikedBy": 100,
     "Likes": ["peronsabs", "personlegs"],
     "dislikes": ["whoa", "joking"],
-    "phone": "431029123"
+    "phone": "431029123",
+    "imageUrl": [ "assets/images/dummy_users/bunny1.jpeg"],
+    "quotes": {"0": "you pass the test", "1": "you fail the test", "2": "how was the test?"}
+  },
+  {
+    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
+    "firstName": "sandy",
+    "lastName" : "do",
+    "DislikedBy": 2,
+    "LikedBy": 100,
+    "Likes": ["peronsabs", "personlegs"],
+    "dislikes": ["whoa", "joking"],
+    "phone": "431029123",
+    "imageUrl": [ "assets/images/dummy_users/bunny1.jpeg"],
+    "quotes": {"0": "you pass the test", "1": "you fail the test", "2": "how was the test?"}
   }
 ]
