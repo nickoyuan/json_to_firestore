@@ -22,21 +22,52 @@ fs.readdir(directoryPath, function(err, files) {
   }
 
   files.forEach(function(file) {
-    var lastDotIndex = file.lastIndexOf(".");
-
-    var menu = require("./files/" + file);
-
-    menu.forEach(function(obj) {
-      firestore
-        .collection(file.substring(0, lastDotIndex))
-        .doc(obj.itemID)
-        .set(obj)
-        .then(function(docRef) {
-          console.log("Document written");
-        })
-        .catch(function(error) {
-          console.error("Error adding document: ", error);
-        });
-    });
+    if(file == "users.json") {
+    populateUsers(file)
+    }
+    if(file == "subcollectionUserMatch.json") {
+      populateUserMatchSubcollection(file)
+    }
   });
 });
+
+function populateUserMatchSubcollection(file) {
+  var lastDotIndex = file.lastIndexOf(".");
+  var menu = require("./files/" + file);
+
+  menu.forEach(function(obj) {
+    firestore
+      .collection("users")
+      .doc(obj.itemID)
+      .collection(file.substring(0, lastDotIndex))
+      .doc(obj.subCollectionID)
+      .set(obj)
+      .then(function(docRef) {
+        console.log("Subcollection written");
+      })
+      .catch(function(error) {
+        console.error("Error adding document: ", error);
+      });
+  });
+}
+
+
+function populateUsers(file) {
+  var lastDotIndex = file.lastIndexOf(".");  // 5
+  var menu = require("./files/" + file);   // menu = All the items 
+
+  //file.substring(0, lastDotIndex) = users
+
+  menu.forEach(function(obj) {
+    firestore
+      .collection(file.substring(0, lastDotIndex))
+      .doc(obj.itemID)
+      .set(obj)
+      .then(function(docRef) {
+        console.log("Document written");
+      })
+      .catch(function(error) {
+        console.error("Error adding document: ", error);
+      });
+  });
+}

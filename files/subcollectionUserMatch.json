@@ -1,0 +1,26 @@
+[
+  {
+    "itemID": "E8vRu9ZQG25ojPBXiz0n",
+    "subCollectionID": "HzbI8EW1QGU4D2gSTxrK",
+    "LikedBy" : 10,
+    "DislikedBy" : 11,
+    "Liked" : ["1231241", "121rrfr2"],
+    "DLiked" : ["12r12", "ffvrv"]
+  },
+  {
+    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
+    "subCollectionID": "scIg3KwJJE8FkPlXRnYH",
+    "LikedBy" : 10,
+    "DislikedBy" : 11,
+    "Liked" : ["1231241", "121rrfr2"],
+    "DLiked" : ["12r12", "ffvrv"]
+  },
+  {
+    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
+    "subCollectionID": "pUJtBnkyjtr9eevBuLtd",
+    "LikedBy" : 10,
+    "DislikedBy" : 11,
+    "Liked" : ["1231241", "121rrfr2"],
+    "DLiked" : ["12r12", "ffvrv"]
+  }
+]
