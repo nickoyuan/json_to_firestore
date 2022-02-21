@@ -17,13 +17,19 @@
     "quotes": {"0": "you pass the test", "1": "you fail the test", "2": "how was the test?"}
   },
   {
-    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
-    "firstName": "sandy",
-    "lastName" : "do",
-    "DislikedBy": 2,
-    "LikedBy": 100,
+    "itemID": "xIYoy2JwJLDAca9QUW5e",
+    "firstName": "hello",
+    "lastName" : "kitty",
     "phone": "431029123",
     "imageUrl": [ "assets/images/dummy_users/bunny1.jpeg"],
-    "quotes": {"0": "you pass the test", "1": "you fail the test", "2": "how was the test?"}
+    "quotes": {"0": "testt", "1": "testing", "2": "tatna"}
+  },
+  {
+    "itemID": "Gn5UCK5cy9WF6mwxDHq5",
+    "firstName": "gnore",
+    "lastName" : "dhan",
+    "phone": "431029123",
+    "imageUrl": [ "assets/images/dummy_users/bunny1.jpeg"],
+    "quotes": {"0": "this", "1": "ad", "2": "dfnasdk"}
   }
 ]

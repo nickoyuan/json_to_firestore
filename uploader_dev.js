@@ -25,8 +25,8 @@ fs.readdir(directoryPath, function(err, files) {
     if(file == "users.json") {
     populateUsers(file)
     }
-    if(file == "subcollectionUserMatch.json") {
-      populateUserMatchSubcollection(file)
+    if(file == "userMatch.json") {
+      populateUsers(file)
     }
   });
 });
