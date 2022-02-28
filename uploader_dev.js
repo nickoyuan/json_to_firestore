@@ -38,7 +38,7 @@ function populateUserMatchSubcollection(file) {
   menu.forEach(function(obj) {
     firestore
       .collection("users")
-      .doc(obj.itemID)
+      .doc(obj.itemId)
       .collection(file.substring(0, lastDotIndex))
       .doc(obj.subCollectionID)
       .set(obj)
@@ -54,14 +54,14 @@ function populateUserMatchSubcollection(file) {
 
 function populateUsers(file) {
   var lastDotIndex = file.lastIndexOf(".");  // 5
-  var menu = require("./files/" + file);   // menu = All the items 
+  var menu = require("./files/" + file);   // menu = All the items
 
   //file.substring(0, lastDotIndex) = users
 
   menu.forEach(function(obj) {
     firestore
       .collection(file.substring(0, lastDotIndex))
-      .doc(obj.itemID)
+      .doc(obj.itemId)
       .set(obj)
       .then(function(docRef) {
         console.log("Document written");

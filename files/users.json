@@ -1,6 +1,6 @@
 [
   {
-    "itemID": "E8vRu9ZQG25ojPBXiz0n",
+    "itemId": "E8vRu9ZQG25ojPBXiz0n",
     "firstName": "Sangai",
     "lastName" : "Momos",
     "itemCategory": "momos_nv",
@@ -9,7 +9,7 @@
     "quotes": {"0": "i like sunshine", "1": "i like beaches", "2": "how is the weather?"}
   },
   {
-    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
+    "itemId": "Hf2aDaUnwLQGNkbqHkgw",
     "firstName": "sandy",
     "lastName" : "do",
     "phone": "431029123",
@@ -17,7 +17,7 @@
     "quotes": {"0": "you pass the test", "1": "you fail the test", "2": "how was the test?"}
   },
   {
-    "itemID": "xIYoy2JwJLDAca9QUW5e",
+    "itemId": "xIYoy2JwJLDAca9QUW5e",
     "firstName": "hello",
     "lastName" : "kitty",
     "phone": "431029123",
@@ -25,7 +25,7 @@
     "quotes": {"0": "testt", "1": "testing", "2": "tatna"}
   },
   {
-    "itemID": "Gn5UCK5cy9WF6mwxDHq5",
+    "itemId": "Gn5UCK5cy9WF6mwxDHq5",
     "firstName": "gnore",
     "lastName" : "dhan",
     "phone": "431029123",

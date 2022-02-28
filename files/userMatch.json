@@ -1,23 +1,23 @@
 [
   {
-    "itemID": "E8vRu9ZQG25ojPBXiz0n",
-    "LikedBy" : 10,
-    "DislikedBy" : 11,
-    "Liked" : ["1231241", "121rrfr2", "Gn5UCK5cy9WF6mwxDHq5"],
-    "DLiked" : ["12r12", "ffvrv"]
+    "itemId": "E8vRu9ZQG25ojPBXiz0n",
+    "likedBy" : 10,
+    "dislikedBy" : 11,
+    "liked" : ["1231241", "121rrfr2", "Gn5UCK5cy9WF6mwxDHq5"],
+    "disliked" : ["12r12", "ffvrv"]
   },
   {
-    "itemID": "Hf2aDaUnwLQGNkbqHkgw",
-    "LikedBy" : 10,
-    "DislikedBy" : 11,
-    "Liked" : ["1231241", "121rrfr2"],
-    "DLiked" : ["12r12", "ffvrv"]
+    "itemId": "Hf2aDaUnwLQGNkbqHkgw",
+    "likedBy" : 10,
+    "dislikedBy" : 11,
+    "liked" : ["1231241", "121rrfr2"],
+    "disliked" : ["12r12", "ffvrv"]
   },
   {
-    "itemID": "xIYoy2JwJLDAca9QUW5e",
-    "LikedBy" : 10,
-    "DislikedBy" : 11,
-    "Liked" : ["1231241", "121rrfr2"],
-    "DLiked" : ["12r12", "ffvrv"]
+    "itemId": "xIYoy2JwJLDAca9QUW5e",
+    "likedBy" : 10,
+    "dislikedBy" : 11,
+    "liked" : ["1231241", "121rrfr2"],
+    "disliked" : ["12r12", "ffvrv"]
   }
 ]
